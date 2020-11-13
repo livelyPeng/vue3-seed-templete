@@ -1,0 +1,10 @@
+请注意一下Options API形式的组件生命周期钩子和Composition API之间的实际对应关系：
+beforeCreate -> 请使用 setup()
+created -> 请使用 setup()
+beforeMount -> onBeforeMount
+mounted -> onMounted
+beforeUpdate -> onBeforeUpdate
+updated -> onUpdated
+beforeDestroy -> onBeforeUnmount
+destroyed -> onUnmounted
+errorCaptured -> onErrorCaptured
